@@ -20,6 +20,12 @@ The monthly revenue analysis covers October 2016 through August 2018 and helps i
 
 ![Monthly Revenue Analysis](reports/figures/monthly_revenue.png)
 
+## Power BI Dashboard
+
+The interactive dashboard provides an overview of revenue, order volume, and items sold, with a date-range slicer to explore performance over time.
+
+![Brazilian E-Commerce Sales Analytics Dashboard](dashboard/dashboard_preview.png)
+
 ## Key Project Areas
 
 - Sales and monthly revenue trends
