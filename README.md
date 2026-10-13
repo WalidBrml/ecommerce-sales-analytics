@@ -36,6 +36,34 @@ The interactive dashboard provides an overview of revenue, order volume, and ite
 - Delivery performance
 - Regional sales analysis
 
+## SQL Analysis
+
+The project includes SQL queries for exploring sales performance, customer behavior, products, payments, delivery, and regional trends.
+
+| File | Analysis |
+|---|---|
+| `01_sales_overview.sql` | Overall sales performance |
+| `02_monthly_sales.sql` | Monthly revenue and order trends |
+| `03_customer_analysis.sql` | Customer purchasing behavior |
+| `04_product_analysis.sql` | Product performance |
+| `05_payment_analysis.sql` | Payment methods and values |
+| `06_delivery_analysis.sql` | Delivery performance |
+| `07_review_analysis.sql` | Customer reviews and ratings |
+| `08_business_insights.sql` | Business performance insights |
+| `09_order_item_quality.sql` | Order-item data quality checks |
+| `10_referential_integrity.sql` | Relationships between tables |
+| `11_category_analysis.sql` | Product category performance |
+| `12_seller_analysis.sql` | Seller performance |
+| `13_geographic_analysis.sql` | Geographic sales analysis |
+| `14_state_order_value.sql` | Order value by state |
+| `15_state_revenue_analysis.sql` | Revenue by state |
+| `16_top_products.sql` | Best-performing products |
+| `17_seller_performance.sql` | Seller performance metrics |
+| `18_payment_insights.sql` | Payment-related business insights |
+| `19_business_kpis.sql` | Key business performance indicators |
+
+These descriptions are based on the filenames, so we can refine them later if the queries contain more specific analyses.
+
 ## Project Structure
 
 ecommerce-sales-analytics/
