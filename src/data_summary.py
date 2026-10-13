@@ -30,5 +30,30 @@ def main():
     print(f"Total revenue: R$ {sales['total_revenue'].sum():,.2f}")
 
 
+    # BUSINESS INSIGHTS
+
+    best_month = sales.loc[sales["total_revenue"].idxmax()]
+    worst_month = sales.loc[sales["total_revenue"].idxmin()]
+    best_order_month = sales.loc[sales["total_orders"].idxmax()]
+
+    print("\nBUSINESS INSIGHTS")
+    print("=" * 40)
+
+    print(
+        f"Highest revenue month: {best_month['month']} "
+        f"({best_month['total_revenue']:,.2f})"
+    )
+
+    print(
+        f"Lowest revenue month: {worst_month['month']} "
+        f"({worst_month['total_revenue']:,.2f})"
+    )
+
+    print(
+        f"Highest order volume: {best_order_month['month']} "
+        f"({best_order_month['total_orders']:,} orders)"
+    )
+
+
 if __name__ == "__main__":
     main()
